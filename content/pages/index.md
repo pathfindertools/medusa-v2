@@ -19,7 +19,7 @@ blocks:
     body: ''
     buttons:
       - label: Join Medusa
-        link: ''
+        link: 'https://discord.gg/mGjVUwsVtJ'
         buttonStyle: primary
         fathomId: ''
     _template: feature
@@ -244,7 +244,7 @@ blocks:
     body: ''
     buttons:
       - label: Developers Documentation
-        link: ''
+        link: 'https://docs.medusanet.xyz/'
         buttonStyle: primary
         fathomId: ''
     _template: feature
@@ -282,11 +282,13 @@ blocks:
         headline: ''
         subhead: ''
         body: ''
+        link: 'https://discord.gg/mGjVUwsVtJ'
       - image:
           src: /uploads/github.svg
         headline: ''
         subhead: ''
         body: ''
+        link: 'https://github.com/medusa-network'
       - image:
           src: /uploads/bookmark.svg
         headline: ''

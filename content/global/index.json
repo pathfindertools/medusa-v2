@@ -21,7 +21,7 @@
       },
       {
         "label": "Contact Us",
-        "link": "/"
+        "link": "mailto:info@medusanet.xyz"
       }
     ],
     "navAlignment": "text-right",
