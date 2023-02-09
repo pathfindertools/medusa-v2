@@ -28,6 +28,7 @@ export const SectionListItemsPlugin = {
         cards: 'Cards',
         tailwindCards: 'Cards TW',
         tailwindFeature: 'Feature TW',
+        timeline: 'Timeline',
       }
       const sectionName = item.headline || item.subhead || item.label || item.title || ''
       const sectionNameShort = sectionName.match(/^.{24}\w*/)

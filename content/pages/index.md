@@ -193,6 +193,21 @@ blocks:
       Polygon, and Cosmos during the coming months.&#x20;
     _template: feature
   - style:
+      padding: undefined pb-28 pr-40 pl-40
+      headlineStyles: 'text-accent1 mg-copy '
+      timelineStyles: text-accent1 mg-copy-small mb-0
+      textStyles: 'text-accent1 mg-headline-small '
+    background:
+      fillStyles: bg-accent3 opacity-100
+    events:
+      - BuilderNet
+      - 'Multichains (EVM, Cosmos) Q1 2013'
+      - Permissioned Network
+      - Mainnet Release Q2 2023
+      - Permissionless Network Q3 2023
+      - Randomness Generation Q4 2023
+    _template: timeline
+  - style:
       alignment: 'flex-row items-center '
       padding: 'pt-0 pb-0 pr-40 pl-40 sm:pt-0 sm:pb-0 sm:pr-5 sm:pl-5'
       featureImage: '  mx-auto'
@@ -291,6 +306,7 @@ blocks:
         link: 'https://github.com/medusa-network'
       - image:
           src: /uploads/telegram.svg
+        body: ''
         link: 'https://t.me/medusanet'
     _template: cards
 backgroundColor: accent3
