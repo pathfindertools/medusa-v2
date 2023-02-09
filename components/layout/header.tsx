@@ -139,7 +139,7 @@ export const Header = ({
     <section className="relative">
       <>
         {/* Desktop Nav */}
-        <div className="md:hidden absolute z-10 top-0 left-0 right-0">
+        <div className="md:hidden absolute z-10 top-0 left-0 right-0 bg-primary">
           <div className={`max-w-desktop-full mx-auto ${nav?.padding}`}>
             <div className="flex items-center">
               <Logo className="flex-none" />
@@ -164,7 +164,7 @@ export const Header = ({
                   } else {
                     return (
                       <li className="inline-block ml-8" key={index}>
-                        <a style={linkStyles} className={"block no-underline"} href={item.link} target={linkTarget(item.link)}>{item.label}</a>
+                        <a className={"block no-underline"} href={item.link} target={linkTarget(item.link)}>{item.label}</a>
                       </li>
                     )
                   }

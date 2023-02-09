@@ -2,15 +2,31 @@
   "siteUrl": "microgen.site",
   "gtmId": "",
   "fathomSiteId": "",
-  "theme": "content/themes/microgen.md",
+  "theme": "content/themes/medusa.md",
   "logo": {
-    "logoTypeStyle": "",
-    "image": ""
+    "logoTypeStyle": "undefined undefined ",
+    "image": "/uploads/medusa-logo.svg",
+    "imageWidth": "128",
+    "imageHeight": "40"
   },
   "nav": {
+    "navItems": [
+      {
+        "label": "Documentation",
+        "link": "https://docs.medusanet.xyz"
+      },
+      {
+        "label": "Careers",
+        "link": "/"
+      },
+      {
+        "label": "Contact Us",
+        "link": "/"
+      }
+    ],
     "navAlignment": "text-right",
-    "navTypeStyle": "text-accent2 mg-body-sm ",
-    "navBackgroundColor": " opacity-100",
-    "padding": "pt-7 pb-10 pr-10 pl-8"
+    "navTypeStyle": "text-accent1 mg-copy-fancy mb-0",
+    "navBackgroundColor": "bg-primary opacity-100",
+    "padding": "pt-4 pb-4 pr-10 pl-10"
   }
 }

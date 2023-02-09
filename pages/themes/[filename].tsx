@@ -3,11 +3,11 @@ import { useTina } from "tinacms/dist/react";
 import { ThemeLayout } from "../../components/layout/theme-layout";
 
 function slugify(string: string) {
-  return string.replace(" ", "-").toLowerCase()
+  return string?.replace(" ", "-").toLowerCase()
 }
 
 const Typography = ({ item, index, parentField = "" }) => {
-  const typography = JSON.parse(item.typography)
+  const typography = JSON.parse(item.typography) || {}
   let sample
   if (Number(typography.size) > 40) {
     sample = 'The quick brown fox jumps over the lazy dog'
@@ -72,7 +72,7 @@ export default function ThemePage(
         <div className="mx-auto max-w-desktop-full p-10">
           {data.theme.typo &&
             data.theme.typo.map(function (item, index) {
-              return <Typography key={index} index={index} item={item} />;
+              return <div key={index}><Typography index={index} item={item} /></div>;
             })
           }
         </div>

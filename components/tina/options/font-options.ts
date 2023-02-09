@@ -60,6 +60,7 @@ export const fontOptions: {label: string, value: string}[] = [
   { "label": "Bitter Heavy", "value": "Bitter:wght@900" },
   { "label": "Bitter Light", "value": "Bitter:wght@300" },
   { "label": "Bitter", "value": "Bitter:wght@400" },
+  { "label": "BIZ UDPMincho", "value": "BIZ UDPMincho:wght@400" },
   { "label": "Bodoni Moda Heavy", "value": "Bodoni Moda:wght@900" },
   { "label": "Bodoni Moda", "value": "Bodoni Moda:wght@400" },
   { "label": "Bree Serif", "value": "Bree Serif:wght@400" },
