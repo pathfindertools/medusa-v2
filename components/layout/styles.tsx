@@ -103,6 +103,10 @@ function buttonClass(obj) {
       text-align: center;
       ${getBorder(obj)};
       cursor: pointer;
+      transition: filter .2s;
+    }
+    .btn-${slugify(obj.label)}:hover {
+      filter: brightness(125%);
     }`
 }
 
