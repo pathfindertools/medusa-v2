@@ -290,14 +290,15 @@ blocks:
         body: ''
         link: 'https://github.com/medusa-network'
       - image:
-          src: /uploads/bookmark.svg
-        headline: ''
-        subhead: ''
-        body: ''
+          src: /uploads/telegram.svg
+        link: 'https://t.me/medusanet'
     _template: cards
 backgroundColor: accent3
 meta:
   title: Medusa
-  description: 'Medusa provides a simple, secure, decentralized solution for access control. Using threshold cryptography, Medusa is a decentralized network enabling user-defined authorization on private data.'
+  description: >-
+    Medusa provides a simple, secure, decentralized solution for access control.
+    Using threshold cryptography, Medusa is a decentralized network enabling
+    user-defined authorization on private data.
 ---
 
