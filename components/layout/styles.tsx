@@ -102,6 +102,7 @@ function buttonClass(obj) {
       border-radius: ${getRadius(obj)};
       text-align: center;
       ${getBorder(obj)};
+      cursor: pointer;
     }`
 }
 
