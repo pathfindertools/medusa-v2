@@ -19,7 +19,7 @@ blocks:
     body: ''
     buttons:
       - label: Join Medusa
-        link: 'https://discord.gg/mGjVUwsVtJ'
+        link: 'https://t.me/medusanet'
         buttonStyle: primary
         fathomId: ''
     _template: feature
@@ -297,10 +297,7 @@ blocks:
     _template: cards
 backgroundColor: accent3
 meta:
-  title: Medusa
-  description: >-
-    Medusa provides a simple, secure, decentralized solution for access control.
-    Using threshold cryptography, Medusa is a decentralized network enabling
-    user-defined authorization on private data.
+  title: Microgen
+  description: ''
 ---
 
