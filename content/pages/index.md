@@ -297,7 +297,10 @@ blocks:
     _template: cards
 backgroundColor: accent3
 meta:
-  title: Microgen
-  description: ''
+  title: Medusa
+  description: >-
+    Medusa provides a simple, secure, decentralized solution for access control.
+    Using threshold cryptography, Medusa is a decentralized network enabling
+    user-defined authorization on private data.
 ---
 

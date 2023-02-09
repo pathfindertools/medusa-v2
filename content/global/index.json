@@ -1,5 +1,6 @@
 {
   "siteUrl": "microgen.site",
+  "favicon": "/uploads/medusa-fav.png",
   "gtmId": "",
   "fathomSiteId": "",
   "theme": "content/themes/medusa.md",
