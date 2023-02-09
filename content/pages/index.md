@@ -2,9 +2,9 @@
 blocks:
   - style:
       alignment: 'flex-row-reverse items-center '
-      padding: pt-60 pb-32 pr-10 pl-10
+      padding: 'pt-60 pb-32 pr-10 pl-10 sm:pt-32 sm:pb-11 sm:pr-5 sm:pl-5'
       featureImage: '  mx-auto'
-      featureContent: 'w-3/5 min-h-0 text-left sm:w-full sm:min-h-0 sm:text-left'
+      featureContent: 'w-3/5 min-h-0 text-left sm:w-4/5 sm:min-h-0 sm:text-left'
       labelStyles: 'text-black mg-headline-small '
       headlineStyles: 'text-accent1 mg-headline-large '
       subheadStyles: text-gray mg-copy-large mb-0
@@ -63,9 +63,9 @@ blocks:
     _template: feature
   - style:
       alignment: 'flex-col-reverse items-center '
-      padding: pt-7 pb-10 pr-10 pl-10
+      padding: 'pt-7 pb-10 pr-10 pl-10 sm:pt-7 sm:pb-5 sm:pr-5 sm:pl-5'
       featureImage: '  mx-auto'
-      featureContent: w-3/5 min-h-0 text-center
+      featureContent: 'w-3/5 min-h-0 text-center sm:w-full sm:min-h-0 sm:text-center'
       labelStyles: text-black undefined undefined
       headlineStyles: text-black undefined undefined
       subheadStyles: text-black undefined undefined
@@ -82,7 +82,7 @@ blocks:
     _template: feature
   - style:
       alignment: flex-col-reverse items-center gap-6
-      padding: pt-20 pb-0 pr-40 pl-40
+      padding: 'pt-20 pb-0 pr-40 pl-40 sm:pt-0 sm:pb-0 sm:pr-5 sm:pl-5'
       featureContent: w-4/5 min-h-0 text-center
       labelStyles: text-black undefined undefined
       headlineStyles: text-black undefined undefined
@@ -92,7 +92,7 @@ blocks:
       fillStyles: ' opacity-100'
       grid: >-
         grid-cols-2 justify-center gap-28 sm:grid-cols-1 sm:justify-center
-        sm:gap-8
+        sm:gap-4
       alignment: flex-row items-start  text-left
       image: '  object-center object-cover'
       imagePadding: pt-0 pb-0 pr-0 pl-0
@@ -142,9 +142,9 @@ blocks:
     _template: cards
   - style:
       alignment: 'flex-col-reverse items-center '
-      padding: pt-20 pb-10 pr-40 pl-40
+      padding: 'pt-20 pb-10 pr-40 pl-40 sm:pt-5 sm:pb-5 sm:pr-5 sm:pl-5'
       featureImage: '  mx-auto'
-      featureContent: w-1/2 min-h-0 text-center
+      featureContent: 'w-1/2 min-h-0 text-center sm:w-full sm:min-h-0 sm:text-center'
       labelStyles: text-black undefined undefined
       headlineStyles: text-accent1 mg-headline-small undefined
       subheadStyles: text-black undefined undefined
@@ -169,9 +169,9 @@ blocks:
     _template: feature
   - style:
       alignment: 'flex-row-reverse items-center '
-      padding: pt-10 pb-10 pr-40 pl-40
+      padding: 'pt-10 pb-10 pr-40 pl-40 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5'
       featureImage: '  mx-auto'
-      featureContent: w-2/5 min-h-0 text-left
+      featureContent: 'w-2/5 min-h-0 text-left sm:w-full sm:min-h-0 sm:text-left'
       labelStyles: text-black undefined undefined
       headlineStyles: text-accent1 mg-headline-small undefined
       subheadStyles: text-black undefined undefined
@@ -194,9 +194,9 @@ blocks:
     _template: feature
   - style:
       alignment: 'flex-row items-center '
-      padding: pt-0 pb-0 pr-40 pl-40
+      padding: 'pt-0 pb-0 pr-40 pl-40 sm:pt-0 sm:pb-0 sm:pr-5 sm:pl-5'
       featureImage: '  mx-auto'
-      featureContent: w-2/5 min-h-0 text-right
+      featureContent: 'w-2/5 min-h-0 text-right sm:w-full sm:min-h-0 sm:text-left'
       labelStyles: text-black undefined undefined
       headlineStyles: text-black undefined undefined
       subheadStyles: text-black undefined undefined
@@ -212,9 +212,9 @@ blocks:
     _template: feature
   - style:
       alignment: 'flex-col-reverse items-center '
-      padding: pt-10 pb-0 pr-40 pl-40
+      padding: 'pt-10 pb-0 pr-40 pl-40 sm:pt-5 sm:pb-5 sm:pr-5 sm:pl-5'
       featureImage: '  mx-auto'
-      featureContent: w-1/2 min-h-0 text-center
+      featureContent: 'w-1/2 min-h-0 text-center sm:w-full sm:min-h-0 sm:text-center'
       labelStyles: text-black undefined undefined
       headlineStyles: text-accent1 mg-headline-small undefined
       subheadStyles: text-black undefined undefined
@@ -230,9 +230,9 @@ blocks:
     _template: feature
   - style:
       alignment: 'flex-col-reverse items-center '
-      padding: pt-0 pb-20 pr-10 pl-10
+      padding: 'pt-0 pb-20 pr-10 pl-10 sm:pt-0 sm:pb-20 sm:pr-5 sm:pl-5'
       featureImage: '  mx-auto'
-      featureContent: w-1/2 min-h-0 text-center
+      featureContent: 'w-1/2 min-h-0 text-center sm:w-full sm:min-h-0 sm:text-center'
       labelStyles: text-black undefined undefined
       headlineStyles: text-accent1 mg-headline-small undefined
       subheadStyles: text-black undefined undefined

@@ -16,7 +16,7 @@ typo:
   - label: Headline Large
     typography: >-
       {"family":"BIZ
-      UDPMincho:wght@400","size":"80","lineHeight":"80","letterSpacing":"-2","margin":"80","smSize":"80","smLineHeight":"80","smLetterSpacing":"-2","smMargin":"80"}
+      UDPMincho:wght@400","size":"80","lineHeight":"80","letterSpacing":"-2","margin":"80","smSize":"40","smLineHeight":"50","smLetterSpacing":"-2","smMargin":"40"}
   - label: Headline Medium
     typography: >-
       {"family":"BIZ
