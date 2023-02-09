@@ -250,7 +250,7 @@ blocks:
     _template: feature
   - style:
       alignment: flex-col-reverse items-start gap-6
-      padding: pt-10 pb-10 pr-40 pl-40
+      padding: 'pt-10 pb-10 pr-40 pl-40 sm:pt-10 sm:pb-10 sm:pr-32 sm:pl-32'
       featureContent: w-full min-h-0 text-center
       labelStyles: text-black undefined undefined
       headlineStyles: text-primary mg-headline-medium undefined
@@ -258,9 +258,9 @@ blocks:
       textStyles: text-black undefined undefined
     cardStyle:
       fillStyles: ' opacity-100'
-      grid: grid-cols-3 items-start gap-6
-      alignment: flex-row items-start  undefined
-      image: ' hpx-120 undefined undefined'
+      grid: 'grid-cols-3 items-start gap-4 sm:grid-cols-3 items-start sm:gap-12'
+      alignment: flex-row items-start  text-center
+      image: ' hpx-120 object-center object-fill sm:wpx- sm:hpx- sm:object-center sm:object-cover'
       imagePadding: pt-0 pb-0 pr-0 pl-0
       contentPadding: pt-2 pb-2 pr-2 pl-2
       borderStyles: border-white border-0
