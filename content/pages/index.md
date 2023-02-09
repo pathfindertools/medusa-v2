@@ -225,8 +225,8 @@ blocks:
     subhead: ''
     body: >
       Medusa is being built by experts in threshold cyrptography, inside the
-      cryptonet team at Protocol Labs, building decentralized protocol for the
-      future of web3.
+      cryptonet team at Protocol Labs. We build decentralized protocols for the
+      future of the Web.
     _template: feature
   - style:
       alignment: 'flex-col-reverse items-center '
@@ -297,7 +297,7 @@ blocks:
     _template: cards
 backgroundColor: accent3
 meta:
-  title: Microgen
-  description: ''
+  title: Medusa
+  description: 'Medusa provides a simple, secure, decentralized solution for access control. Using threshold cryptography, Medusa is a decentralized network enabling user-defined authorization on private data.'
 ---
 
