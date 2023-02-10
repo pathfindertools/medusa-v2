@@ -18,7 +18,7 @@ export const Timeline = ({ data, parentField = "" }) => {
             {data.events?.map((event) => {
               return (
                 <div className="relative w-1">
-                  <div className="absolute -top-11 left-1/2 transform -translate-x-1/2 w-7 h-7 bg-accent1 rounded-full"></div>
+                  <div className="absolute -top-10 left-1/2 transform -translate-x-1/2 w-5 h-5 bg-accent1 rounded-full"></div>
                   <div className={`absolute transform -translate-x-1/2 w-28 text-center ${data.style?.timelineStyles}`}>{event}</div>
                 </div>
               )

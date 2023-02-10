@@ -34,10 +34,10 @@ typo:
       {"family":"Helvetica","size":"16","lineHeight":"28","letterSpacing":"0","margin":"28","smSize":"16","smLineHeight":"28","smLetterSpacing":"0","smMargin":"28"}
   - label: Copy Small
     typography: >-
-      {"family":"Helvetica","size":"14","lineHeight":"28","letterSpacing":"0","margin":"28","smSize":"14","smLineHeight":"28","smLetterSpacing":"0","smMargin":"28"}
+      {"family":"Helvetica","size":"14","lineHeight":"20","letterSpacing":"0","margin":"28","smSize":"14","smLineHeight":"20","smLetterSpacing":"0","smMargin":"28"}
 buttons:
   - label: Primary
-    fill: bg-accent2 opacity-100
+    fill: bg-accent3 opacity-100
     typography: >-
       {"color":"white","family":"BIZ
       UDPMincho:wght@400","size":"16","lineHeight":"18","letterSpacing":"0","smSize":"16","smLineHeight":"18","smLetterSpacing":"0"}

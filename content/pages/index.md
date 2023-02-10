@@ -46,7 +46,7 @@ blocks:
       buttonLayout: undefined
       buttonWidth: undefined
     background:
-      fillStyles: bg-accent3 opacity-100
+      fillStyles: ' opacity-100'
     label: ''
     headline: ''
     subhead: ''
@@ -58,7 +58,7 @@ blocks:
     _template: cards
   - style:
       alignment: 'flex-col-reverse items-center '
-      padding: 'pt-20 pb-0 pr-10 pl-10 sm:pt-10 sm:pb-0 sm:pr-5 sm:pl-5'
+      padding: 'pt-10 pb-0 pr-10 pl-10 sm:pt-10 sm:pb-0 sm:pr-5 sm:pl-5'
       featureImage: '  mx-auto'
       featureContent: 'w-3/5 min-h-0 text-center sm:w-full sm:min-h-0 sm:text-center'
       labelStyles: text-black undefined undefined
@@ -89,7 +89,7 @@ blocks:
       subheadStyles: text-black undefined undefined
       textStyles: text-accent1 mg-copy-fancy mb-7
     background:
-      fillStyles: bg-accent3 opacity-100
+      fillStyles: ' opacity-100'
     headline: ''
     subhead: ''
     body: >
@@ -123,7 +123,7 @@ blocks:
       buttonLayout: undefined
       buttonWidth: undefined
     background:
-      fillStyles: bg-accent3 opacity-100
+      fillStyles: ' opacity-100'
     label: ''
     headline: ''
     subhead: ''
@@ -168,7 +168,7 @@ blocks:
       subheadStyles: text-black undefined undefined
       textStyles: text-accent1 mg-copy mb-7
     background:
-      fillStyles: bg-accent3 opacity-100
+      fillStyles: ' opacity-100'
       ornaments:
         - src: /uploads/fish-close.png
           alignment: bottom
@@ -187,7 +187,7 @@ blocks:
     _template: feature
   - style:
       alignment: 'flex-row-reverse items-center '
-      padding: 'pt-10 pb-10 pr-40 pl-40 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5'
+      padding: 'pt-10 pb-0 pr-40 pl-40 sm:pt-10 sm:pb-0 sm:pr-5 sm:pl-5'
       featureImage: '  mx-auto'
       featureContent: 'w-2/5 min-h-0 text-left sm:w-full sm:min-h-0 sm:text-left'
       labelStyles: text-black undefined undefined
@@ -195,7 +195,7 @@ blocks:
       subheadStyles: text-black undefined undefined
       textStyles: text-accent1 mg-copy undefined
     background:
-      fillStyles: bg-accent3 opacity-100
+      fillStyles: ' opacity-100'
       ornaments:
         - src: /uploads/fish-far.png
           alignment: center
@@ -211,12 +211,12 @@ blocks:
       Polygon, and Cosmos during the coming months.&#x20;
     _template: feature
   - style:
-      padding: undefined pb-28 pr-40 pl-40
+      padding: undefined pb-16 pr-40 pl-40
       headlineStyles: 'text-accent1 mg-copy '
       timelineStyles: text-accent1 mg-copy-small mb-0
       textStyles: 'text-accent1 mg-headline-small '
     background:
-      fillStyles: bg-accent3 opacity-100
+      fillStyles: ' opacity-100'
     events:
       - BuilderNet
       - 'Multichains (EVM, Cosmos) Q1 2013'
@@ -235,7 +235,7 @@ blocks:
       subheadStyles: text-black undefined undefined
       textStyles: text-accent1 mg-copy undefined
     background:
-      fillStyles: bg-accent3 opacity-100
+      fillStyles: ' opacity-100'
     headline: ''
     subhead: ''
     body: >
@@ -251,9 +251,9 @@ blocks:
       labelStyles: text-black undefined undefined
       headlineStyles: text-accent1 mg-headline-small undefined
       subheadStyles: text-black undefined undefined
-      textStyles: text-accent1 mg-copy mb-7
+      textStyles: text-accent1 mg-copy mb-3.5
     background:
-      fillStyles: bg-accent3 opacity-100
+      fillStyles: ' opacity-100'
     headline: Team
     subhead: ''
     body: >
@@ -271,7 +271,7 @@ blocks:
       subheadStyles: text-black undefined undefined
       textStyles: text-accent1 mg-copy-fancy mb-7
     background:
-      fillStyles: bg-accent3 opacity-100
+      fillStyles: ' opacity-100'
     headline: Interested In Opportunities?
     subhead: ''
     body: ''

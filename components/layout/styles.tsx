@@ -160,6 +160,9 @@ export const styles = (theme, pageBackground) => {
     h2 a,
     h3 a,
     h4 a,
+    .markdown p {
+      margin-bottom: inherit;
+    }
     .markdown a {
       color: var(--${theme.linkColor}-color);
     }
