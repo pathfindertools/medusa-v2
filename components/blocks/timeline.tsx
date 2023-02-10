@@ -11,14 +11,20 @@ export const Timeline = ({ data, parentField = "" }) => {
       background={data.background}
       navigationLabel={data.navigationLabel}
     >
-      <div className={`relative w-full max-w-site-full mx-auto ${padding}`}>
-        <div className="relative w-full py-8 px-3">
-          <div className={`absolute top-0 left-3 right-3 h-1 bg-accent1`}></div>
-          <div className="flex justify-between">
-            {data.events?.map((event) => {
+      <div className={`relative w-full max-w-site-full mx-auto ${padding} sm:px-0 md:pl-10`}>
+        <div className="relative w-full py-8 px-3 sm:transform sm:translate-x-14">
+          
+          <div className={`absolute top-0 left-3 right-3 sm:-right-28 h-1 bg-accent1`}></div>
+          <div className={`hidden sm:block absolute top-28 sm:-left-28 sm:right-64 h-1 bg-accent1`}></div>
+
+          <div className="flex sm:grid sm:grid-cols-3 justify-between">
+            {data.events?.map((event, index) => {
               return (
-                <div className="relative w-1">
+                <div className="relative w-1 sm:first:mb-28">
+                  <div className={`hidden ${index !== 0 && 'sm:block'} absolute -top-8 right-0 w-28 h-1 bg-accent1`}></div>
+
                   <div className="absolute -top-10 left-1/2 transform -translate-x-1/2 w-5 h-5 bg-accent1 rounded-full"></div>
+                  
                   <div className={`absolute transform -translate-x-1/2 w-28 text-center ${data.style?.timelineStyles}`}>{event}</div>
                 </div>
               )

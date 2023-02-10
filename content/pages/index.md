@@ -211,7 +211,7 @@ blocks:
       Polygon, and Cosmos during the coming months.&#x20;
     _template: feature
   - style:
-      padding: undefined pb-16 pr-40 pl-40
+      padding: 'undefined pb-16 pr-24 pl-24 undefined sm:pb-16 sm:pr-0 sm:pl-2.5'
       headlineStyles: 'text-accent1 mg-copy '
       timelineStyles: text-accent1 mg-copy-small mb-0
       textStyles: 'text-accent1 mg-headline-small '
