@@ -139,8 +139,8 @@ export const Header = ({
     <section className="relative">
       <>
         {/* Desktop Nav */}
-        <div className="md:hidden absolute z-10 top-0 left-0 right-0">
-          <div className={`max-w-desktop-full mx-auto bg-primary ${nav?.padding}`}>
+        <div className="md:hidden absolute z-10 top-0 left-0 right-0 bg-primary ">
+          <div className={`max-w-desktop-full mx-auto ${nav?.padding}`}>
             <div className="flex items-center">
               <Logo className="flex-none" />
               <ul style={navStyles} className={`${nav?.navTypeStyle} ${nav?.navAlignment} flex-grow list-none md:hidden`}>

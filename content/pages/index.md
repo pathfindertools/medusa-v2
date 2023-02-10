@@ -6,7 +6,7 @@ blocks:
       featureImage: '  mx-auto'
       featureContent: 'w-2/3 min-h-0 text-left sm:w-4/5 sm:min-h-0 sm:text-left'
       labelStyles: 'text-black mg-headline-small '
-      headlineStyles: text-accent1 mg-headline-large mb-20
+      headlineStyles: text-accent1 mg-headline-xl mb-20
       subheadStyles: text-gray mg-copy-large mb-0
       textStyles: text-accent1 mg-copy mb-14
     background:
@@ -32,15 +32,15 @@ blocks:
       subheadStyles: text-black undefined mb-0
       textStyles: text-black undefined mb-0
     cardStyle:
-      fillStyles: bg-accent1 opacity-100
+      fillStyles: ' opacity-100'
       grid: grid-cols-1 items-start gap-6
       alignment: flex-row items-start  text-center
       image: '  object-center object-cover'
       imagePadding: pt-0 pb-0 pr-0 pl-0
-      contentPadding: pt-10 pb-10 pr-5 pl-5
+      contentPadding: pt-16 pb-10 pr-5 pl-5
       borderStyles: border-white border-0
       labelStyles: text-black undefined undefined
-      headlineStyles: text-primary mg-headline-medium mb-0
+      headlineStyles: text-accent3 mg-headline-large mb-0
       subheadStyles: text-black undefined undefined
       textStyles: text-black undefined undefined
       buttonLayout: undefined
