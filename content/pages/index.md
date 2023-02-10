@@ -81,7 +81,7 @@ blocks:
     _template: feature
   - style:
       alignment: 'flex-col-reverse items-center '
-      padding: 'pt-7 pb-10 pr-10 pl-10 sm:pt-7 sm:pb-5 sm:pr-5 sm:pl-5'
+      padding: 'pt-7 pb-0 pr-10 pl-10 sm:pt-7 sm:pb-0 sm:pr-5 sm:pl-5'
       featureImage: '  mx-auto'
       featureContent: 'w-3/5 min-h-0 text-center sm:w-full sm:min-h-0 sm:text-center'
       labelStyles: text-black undefined undefined
@@ -100,7 +100,7 @@ blocks:
     _template: feature
   - style:
       alignment: flex-col-reverse items-center gap-6
-      padding: 'pt-20 pb-0 pr-40 pl-40 sm:pt-0 sm:pb-0 sm:pr-5 sm:pl-5'
+      padding: 'pt-0 pb-0 pr-40 pl-40 sm:pt-0 sm:pb-0 sm:pr-5 sm:pl-5'
       featureContent: w-4/5 min-h-0 text-center
       labelStyles: text-black undefined undefined
       headlineStyles: text-black undefined undefined
@@ -160,7 +160,7 @@ blocks:
     _template: cards
   - style:
       alignment: 'flex-col-reverse items-center '
-      padding: 'pt-20 pb-10 pr-40 pl-40 sm:pt-5 sm:pb-5 sm:pr-5 sm:pl-5'
+      padding: 'pt-10 pb-10 pr-40 pl-40 sm:pt-5 sm:pb-5 sm:pr-5 sm:pl-5'
       featureImage: '  mx-auto'
       featureContent: 'w-1/2 min-h-0 text-center sm:w-full sm:min-h-0 sm:text-center'
       labelStyles: text-black undefined undefined
@@ -170,7 +170,7 @@ blocks:
     background:
       fillStyles: ' opacity-100'
       ornaments:
-        - src: /uploads/fish-close.png
+        - src: /uploads/fish-close.webp
           alignment: bottom
           yOffset: '-100'
     headline: Technology
@@ -197,7 +197,7 @@ blocks:
     background:
       fillStyles: ' opacity-100'
       ornaments:
-        - src: /uploads/fish-far.png
+        - src: /uploads/fish-far.webp
           alignment: center
           yOffset: '250'
     headline: Roadmap
