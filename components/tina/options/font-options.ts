@@ -258,6 +258,7 @@ export const fontOptions: {label: string, value: string}[] = [
   { "label": "Nanum Gothic", "value": "Nanum Gothic:wght@400" },
   { "label": "Nanum Myeongjo Heavy", "value": "Nanum Myeongjo:wght@800" },
   { "label": "Nanum Myeongjo", "value": "Nanum Myeongjo:wght@400" },
+  { "label": "Neue Haas Unica-Light", "value": "Neue Haas Unica-Light" },
   { "label": "Neuton Heavy", "value": "Neuton:wght@800" },
   { "label": "Neuton", "value": "Neuton:wght@400" },
   { "label": "Noticia Text", "value": "Noticia Text:wght@400" },

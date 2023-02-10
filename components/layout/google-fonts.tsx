@@ -6,7 +6,7 @@ function unique(list) {
 
 export const googleFontsLink = (theme) => {
   const systemFonts = ['Arial','Courier','Geneva','Georgia', 'Helvetica','Impact','Lucida Console','Lucida Grande','Monaco','Palatino','Tahoma','Times New Roman','Verdana']
-  const customFonts = ['Suisse Intl']
+  const customFonts = ['Suisse Intl', 'NeueHaasUnica-Light']
   const typographyFontFamilies = theme.typo?.map(item => {
     const fontObject = JSON.parse(item.typography) || {}
     return fontObject?.family || null
