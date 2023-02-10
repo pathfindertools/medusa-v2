@@ -28,10 +28,9 @@ export const Layout = ({ rawData, children }) => {
             <meta property="og:image" content={page.meta?.siteImage} />
           </>
         }
-        
         <style id="theme-styles"
           dangerouslySetInnerHTML={{
-            __html: styles(global.theme),
+            __html: styles(global?.theme, page?.backgroundColor ),
           }}
         />
         

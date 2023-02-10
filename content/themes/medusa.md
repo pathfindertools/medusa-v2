@@ -2,10 +2,10 @@
 name: Medusa
 desktopWidth: '1300'
 colors:
-  primary: '#0A1C87'
+  primary: '#00125C'
   accent1: '#A1D2FF'
-  accent2: '#FC8B0F'
-  accent3: '#001352'
+  accent2: '#0887E8'
+  accent3: '#FC8B0F'
   accent4: '#7d3149'
   white: '#FFFFFF'
   grayLight: '#E8E8EF'

@@ -2,16 +2,16 @@
 blocks:
   - style:
       alignment: 'flex-row-reverse items-center '
-      padding: 'pt-60 pb-32 pr-10 pl-10 sm:pt-32 sm:pb-11 sm:pr-5 sm:pl-5'
+      padding: 'pt-64 pb-24 pr-10 pl-10 sm:pt-32 sm:pb-11 sm:pr-5 sm:pl-5'
       featureImage: '  mx-auto'
-      featureContent: 'w-3/5 min-h-0 text-left sm:w-4/5 sm:min-h-0 sm:text-left'
+      featureContent: 'w-2/3 min-h-0 text-left sm:w-4/5 sm:min-h-0 sm:text-left'
       labelStyles: 'text-black mg-headline-small '
-      headlineStyles: 'text-accent1 mg-headline-large '
+      headlineStyles: text-accent1 mg-headline-large mb-20
       subheadStyles: text-gray mg-copy-large mb-0
-      textStyles: text-black mg-copy-medium mb-0
+      textStyles: text-accent1 mg-copy mb-14
     background:
       fillStyles: bg-accent3 opacity-100
-      src: /uploads/medusa-hero.jpeg
+      src: /uploads/hero.jpg
       position: object-bottom
     label: ''
     headline: Easy to Use Decentralized Access Control
@@ -25,19 +25,37 @@ blocks:
     _template: feature
   - style:
       alignment: 'flex-col-reverse items-center '
-      padding: pt-10 pb-10 pr-10 pl-10
-      featureImage: '  mx-auto'
-      featureContent: w-full min-h-0 text-center
+      padding: pt-0 pb-0 pr-0 pl-0
+      featureContent: w-full min-h-0 text-left
+      labelStyles: text-black undefined mb-0
+      headlineStyles: text-black undefined mb-0
+      subheadStyles: text-black undefined mb-0
+      textStyles: text-black undefined mb-0
+    cardStyle:
+      fillStyles: bg-accent1 opacity-100
+      grid: grid-cols-1 items-start gap-6
+      alignment: flex-row items-start  text-center
+      image: '  object-center object-cover'
+      imagePadding: pt-0 pb-0 pr-0 pl-0
+      contentPadding: pt-10 pb-10 pr-5 pl-5
+      borderStyles: border-white border-0
       labelStyles: text-black undefined undefined
       headlineStyles: text-primary mg-headline-medium mb-0
       subheadStyles: text-black undefined undefined
       textStyles: text-black undefined undefined
+      buttonLayout: undefined
+      buttonWidth: undefined
     background:
-      fillStyles: bg-accent1 opacity-100
-    headline: Powered by Threshold Cryptography
+      fillStyles: bg-accent3 opacity-100
+    label: ''
+    headline: ''
     subhead: ''
     body: ''
-    _template: feature
+    items:
+      - headline: Powered by Threshold Cryptography
+        subhead: ''
+        body: ''
+    _template: cards
   - style:
       alignment: 'flex-col-reverse items-center '
       padding: 'pt-20 pb-0 pr-10 pl-10 sm:pt-10 sm:pb-0 sm:pr-5 sm:pl-5'
@@ -48,7 +66,7 @@ blocks:
       subheadStyles: text-black undefined undefined
       textStyles: text-accent1 mg-copy-fancy mb-7
     background:
-      fillStyles: bg-accent3 opacity-100
+      fillStyles: ' opacity-100'
     headline: ''
     subhead: ''
     body: >
@@ -309,7 +327,7 @@ blocks:
         body: ''
         link: 'https://t.me/medusanet'
     _template: cards
-backgroundColor: accent3
+backgroundColor: primary
 meta:
   title: Medusa
   description: >-
