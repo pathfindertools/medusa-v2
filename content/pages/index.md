@@ -64,7 +64,7 @@ blocks:
       labelStyles: text-black undefined undefined
       headlineStyles: text-black undefined undefined
       subheadStyles: text-black undefined undefined
-      textStyles: text-accent1 mg-copy-fancy mb-7
+      textStyles: text-accent1 mg-copy-fancy mb-3.5
     background:
       fillStyles: ' opacity-100'
     headline: ''

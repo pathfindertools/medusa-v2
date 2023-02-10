@@ -16,19 +16,19 @@ typo:
   - label: Headline Large
     typography: >-
       {"family":"BIZ
-      UDPMincho:wght@400","size":"80","lineHeight":"80","letterSpacing":"-2","margin":"80","smSize":"40","smLineHeight":"50","smLetterSpacing":"-2","smMargin":"40"}
+      UDPMincho:wght@200","size":"80","lineHeight":"80","letterSpacing":"-2","margin":"80","smSize":"40","smLineHeight":"50","smLetterSpacing":"-2","smMargin":"40"}
   - label: Headline Medium
     typography: >-
       {"family":"BIZ
-      UDPMincho:wght@400","size":"28","lineHeight":"32","letterSpacing":"0","margin":"32","smSize":"28","smLineHeight":"32","smLetterSpacing":"0","smMargin":"32"}
+      UDPMincho:wght@200","size":"28","lineHeight":"32","letterSpacing":"0","margin":"32","smSize":"28","smLineHeight":"32","smLetterSpacing":"0","smMargin":"32"}
   - label: Headline Small
     typography: >-
       {"family":"BIZ
-      UDPMincho:wght@400","size":"24","lineHeight":"28","letterSpacing":"0","margin":"28","smSize":"24","smLineHeight":"28","smLetterSpacing":"0","smMargin":"28"}
+      UDPMincho:wght@200","size":"24","lineHeight":"28","letterSpacing":"0","margin":"28","smSize":"24","smLineHeight":"28","smLetterSpacing":"0","smMargin":"28"}
   - label: Copy Fancy
     typography: >-
       {"family":"BIZ
-      UDPMincho:wght@400","size":"16","lineHeight":"28","letterSpacing":"0","margin":"28","smSize":"16","smLineHeight":"28","smLetterSpacing":"0","smMargin":"28"}
+      UDPMincho:wght@200","size":"16","lineHeight":"28","letterSpacing":"0","margin":"28","smSize":"16","smLineHeight":"28","smLetterSpacing":"0","smMargin":"28"}
   - label: Copy
     typography: >-
       {"family":"Neue Haas
