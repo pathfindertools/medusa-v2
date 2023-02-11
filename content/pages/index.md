@@ -286,7 +286,7 @@ blocks:
       padding: 'pt-10 pb-10 pr-40 pl-40 sm:pt-10 sm:pb-10 sm:pr-10 sm:pl-10'
       featureContent: w-full min-h-0 text-center
       labelStyles: text-black undefined undefined
-      headlineStyles: text-primary mg-headline-medium undefined
+      headlineStyles: text-accent1 mg-headline-medium undefined
       subheadStyles: text-black undefined undefined
       textStyles: text-black undefined undefined
     cardStyle:
@@ -304,7 +304,7 @@ blocks:
       buttonLayout: undefined
       buttonWidth: undefined
     background:
-      fillStyles: bg-accent1 opacity-100
+      fillStyles: bg-primary opacity-100
     label: ''
     headline: Connect With Us
     subhead: ''
@@ -335,4 +335,5 @@ meta:
     Using threshold cryptography, Medusa is a decentralized network enabling
     user-defined authorization on private data.
 ---
+
 
