@@ -16,11 +16,11 @@ typo:
   - label: Headline XL
     typography: >-
       {"family":"BIZ
-      UDPMincho:wght@200","size":"80","lineHeight":"80","letterSpacing":"-2","margin":"40","smSize":"40","smLineHeight":"50","smLetterSpacing":"-2","smMargin":"40"}
+      UDPMincho:wght@200","size":"80","lineHeight":"80","letterSpacing":"-2","margin":"40","smSize":"36","smLineHeight":"44","smLetterSpacing":"-2","smMargin":"40"}
   - label: Headline Large
     typography: >-
       {"family":"BIZ
-      UDPMincho:wght@200","size":"40","lineHeight":"48","letterSpacing":"0","margin":"0","smSize":"40","smLineHeight":"48","smLetterSpacing":"0","smMargin":"0"}
+      UDPMincho:wght@200","size":"40","lineHeight":"48","letterSpacing":"0","margin":"0","smSize":"36","smLineHeight":"44","smLetterSpacing":"0","smMargin":"0"}
   - label: Headline Medium
     typography: >-
       {"family":"BIZ
@@ -52,4 +52,5 @@ buttons:
     primaryRounded: rounded-3xl
 linkColor: primary
 ---
+
 
