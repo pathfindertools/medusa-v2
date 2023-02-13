@@ -2,8 +2,8 @@ import { client } from "../../.tina/__generated__/client";
 import { useTina } from "tinacms/dist/react";
 import { ThemeLayout } from "../../components/layout/theme-layout";
 
-function slugify(string: string) {
-  return string?.replace(" ", "-").toLowerCase()
+function slugify(string = "") {
+  return string.replace(" ", "-").toLowerCase()
 }
 
 const Typography = ({ item, index, parentField = "" }) => {
@@ -80,7 +80,7 @@ export default function ThemePage(
           {data.theme.buttons &&
             data.theme.buttons.map(function (item, index) {
               return (
-                <div className="flex items-center gap-10 mb-16">
+                <div key={index} className="flex items-center gap-10 mb-16">
                   <div className="flex-none text-gray text-right uppercase w-40">
                     <div style={{fontSize: "14px" }}>{item.label}</div>
                   </div>
@@ -111,18 +111,11 @@ export const getStaticProps = async ({ params }) => {
   };
 };
 
-/**
- * To build the blog post pages we just iterate through the list of
- * posts and provide their "filename" as part of the URL path
- *
- * So a blog post at "content/posts/hello.md" would
- * be viewable at http://localhost:3000/posts/hello
- */
 export const getStaticPaths = async () => {
-  const postsListData = await client.queries.postConnection();
+  const themesListData = await client.queries.themeConnection();
   return {
-    paths: postsListData.data.postConnection.edges.map((post) => ({
-      params: { filename: post.node._sys.filename },
+    paths: themesListData.data.themeConnection.edges.map((theme) => ({
+      params: { filename: theme.node._sys.filename },
     })),
     fallback: "blocking",
   };
