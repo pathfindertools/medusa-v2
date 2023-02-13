@@ -181,7 +181,8 @@ blocks:
       recipients deemed eligible via the application's access control policy.
     buttons:
       - label: Whitepaper
-        link: ''
+        link: >-
+          https://www.notion.so/pl-strflt/Medusa-Scalable-Threshold-Network-on-chain-b4ee719a34a44aa7b39bf32ad7dcd4f4?pvs=4
         buttonStyle: primary
         fathomId: ''
     _template: feature
@@ -335,6 +336,7 @@ meta:
     Using threshold cryptography, Medusa is a decentralized network enabling
     user-defined authorization on private data.
 ---
+
 
 
 
