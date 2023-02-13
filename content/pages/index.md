@@ -75,7 +75,7 @@ blocks:
       enabling user-defined authorization on private data.
     buttons:
       - label: Try The Demo
-        link: ''
+        link: 'https://demo.medusanet.xyz'
         buttonStyle: primary
         fathomId: ''
     _template: feature
@@ -335,5 +335,6 @@ meta:
     Using threshold cryptography, Medusa is a decentralized network enabling
     user-defined authorization on private data.
 ---
+
 
 
