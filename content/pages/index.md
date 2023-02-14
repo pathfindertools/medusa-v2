@@ -4,7 +4,7 @@ blocks:
       alignment: 'flex-row-reverse items-center '
       padding: 'pt-64 pb-24 pr-10 pl-10 sm:pt-32 sm:pb-11 sm:pr-5 sm:pl-5'
       featureImage: '  mx-auto'
-      featureContent: 'w-2/3 min-h-0 text-left sm:w-4/5 sm:min-h-0 sm:text-left'
+      featureContent: 'w-2/3 min-h-0 text-left sm:w-2/3 sm:min-h-0 sm:text-left'
       labelStyles: 'text-black mg-headline-small '
       headlineStyles: text-accent1 mg-headline-xl mb-20
       subheadStyles: text-gray mg-copy-large mb-0
@@ -335,6 +335,7 @@ meta:
     Using threshold cryptography, Medusa is a decentralized network enabling
     user-defined authorization on private data.
 ---
+
 
 
 
