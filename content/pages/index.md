@@ -273,7 +273,7 @@ blocks:
       textStyles: text-accent1 mg-copy-fancy mb-7
     background:
       fillStyles: ' opacity-100'
-    headline: Interested In Opportunities?
+    headline: ''
     subhead: ''
     body: ''
     buttons:
@@ -336,6 +336,7 @@ meta:
     Using threshold cryptography, Medusa is a decentralized network enabling
     user-defined authorization on private data.
 ---
+
 
 
 
