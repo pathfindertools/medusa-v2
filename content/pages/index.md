@@ -180,7 +180,7 @@ blocks:
       operations. The medusa network reencrypts private data towards any
       recipients deemed eligible via the application's access control policy.
     buttons:
-      - label: Whitepaper
+      - label: Learn more
         link: 'https://docs.medusanet.xyz/about'
         buttonStyle: primary
         fathomId: ''
@@ -335,6 +335,7 @@ meta:
     Using threshold cryptography, Medusa is a decentralized network enabling
     user-defined authorization on private data.
 ---
+
 
 
 
